@@ -13,15 +13,15 @@ public class BankAccount
 	//constructors
 	public BankAccount(String a, int b)
 	{
-		a = name;
-		b= accountNum;
+		name = a;
+		accountNum = b;
 		balance = 0;
 	}
 	public BankAccount(String a, int b, double c)
 	{
-		a = name;
-		b = accountNum;
-		c = balance;
+		name = a;
+		accountNum = b;
+		balance = c;
 	}
 	//methods
 	public void deposit(double amountDeposit)
