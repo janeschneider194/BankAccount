@@ -1,4 +1,8 @@
-
+/**
+ * 
+ * @author jane schneider
+ *
+ */
 public class BankAccount
 {
 	//fields
@@ -7,17 +11,17 @@ public class BankAccount
 		private double balance;
 		
 	//constructors
-	public BankAccount(String name, int accountNum)
+	public BankAccount(String a, int b)
 	{
-		name = "jane";
-		accountNum = 2000;
+		a = name;
+		b= accountNum;
 		balance = 0;
 	}
-	public BankAccount(String name, int accountNum, double balance)
+	public BankAccount(String a, int b, double c)
 	{
-		name = "jane";
-		accountNum = 2000;
-		balance = 50.00;
+		a = name;
+		b = accountNum;
+		c = balance;
 	}
 	//methods
 	public void deposit(double amountDeposit)
@@ -34,7 +38,8 @@ public class BankAccount
 	}
 	public String toString()
 	{
-		return "Balance: " + balance;
+		return "AccountNum: " + accountNum + "\nName: " + name + "\nBalance: " + balance;
+		
 	}
 	
 }
